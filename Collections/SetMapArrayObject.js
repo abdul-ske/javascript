@@ -48,13 +48,3 @@ const dup=str.substring(0,5)
 //includes('substr') true or false
 //split(seperator)
 console.log(dup)
-let x=Number("23b")
-console.log("x ",x)
-console.log(typeof(x))
-let y=34
-console.log("y type ",typeof y)
-let str1=String(y)
-console.log("str1 type",typeof str1)
-console.log("str1 ",str1)
-let str3=String(5+"123")
-console.log(str3)

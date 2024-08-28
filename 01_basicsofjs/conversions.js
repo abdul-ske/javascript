@@ -17,3 +17,20 @@ console.log(`x:${a},y:${b}`)
 /*
 1=>true;0=>false;""=>false;"q"=>true
  */
+let x1=Number("23b")
+console.log("x ",x)
+console.log(typeof(x))
+let y1=34
+console.log("y type ",typeof y)
+let str1=String(y)
+console.log("str1 type",typeof str1)
+console.log("str1 ",str1)
+let str3=String(5+"123")
+console.log(str3)
+let dte=new Date()
+console.log(dte)
+console.log(String(dte))
+console.log(dte)
+console.log(Number(dte))
+let bool=Boolean(0)
+console.log(bool)
