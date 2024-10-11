@@ -15,9 +15,15 @@ const add=(number)=>{
 console.log(add(1))
 //pure arrow without return
 const add1=(num1,num2)=>(num1+num2)
+
+//console.log("x value is ${x}");
+
 const add2=()=>({username:"abdul"})
+console.log("add1 value");
+
 console.log(add1(1,2))
-console.log(add2())
+console.log("add2 value");
+console.log(add2().username)
 //IIFE:Immediatly invoked function expressions
 //Normal function call 
 const f1=function ()
